@@ -24,16 +24,17 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "sofa/eloquence-base": "^5.5|^6.0",
-        "sofa/eloquence-metable": "^5.5|^6.0",
-        "sofa/eloquence-mutable": "^5.5|^6.0",
-        "mevisoft/eloquence-mappable": "^5.5|^6.0",
-        "sofa/eloquence-validable": "^5.5|^6.0"
+        "illuminate/database": "5.8.*",
+        "sofa/eloquence-base": ">=5.5",
+        "sofa/eloquence-metable": ">=5.5",
+        "sofa/eloquence-mutable": ">=5.5",
+        "mevisoft/eloquence-mappable": ">=5.5",
+        "sofa/eloquence-validable": ">=5.5"
     },
     "require-dev": {
-        "phpunit/phpunit": "4.5.0",
-        "squizlabs/php_codesniffer": "2.3.3",
-        "mockery/mockery": "0.9.4"
+        "phpunit/phpunit": ">=4.5.0",
+        "squizlabs/php_codesniffer": ">=2.3.3",
+        "mockery/mockery": ">=0.9.4"
     },
     "autoload-dev": {
         "psr-4": {
