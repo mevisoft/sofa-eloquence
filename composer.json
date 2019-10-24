@@ -24,7 +24,6 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "illuminate/database": "5.8.*",
         "sofa/eloquence-base": ">=5.5",
         "sofa/eloquence-metable": ">=5.5",
         "sofa/eloquence-mutable": ">=5.5",
